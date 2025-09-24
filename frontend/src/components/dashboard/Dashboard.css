@@ -1,0 +1,36 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background: #f4f4f4;
+}
+
+.status {
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.status-submitted {
+  background: #3498db;
+}
+
+.status-in_progress {
+  background: #f1c40f;
+}
+
+.status-resolved {
+  background: #2ecc71;
+}
